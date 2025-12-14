@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Do Good Movement | Closing reflections",
+  title: "Thank you - Do Good Movement",
   description:
     "Celebrating the impact of the Do Good Movement and thanking our community for their support.",
 };
