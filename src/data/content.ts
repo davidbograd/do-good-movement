@@ -159,7 +159,7 @@ export const charityPartners: CharityPartner[] = [
 
 export const farewellLetter: FarewellLetter = {
   intro:
-    "Why Do Good Movement is closing down",
+    "Why we're closing Do Good Movement",
   paragraphs: [
     "After three years of building Do Good Movement, we've made the difficult decision to close. While our mission remained strong, the reality of sustaining and growing DGM proved more challenging than we had hoped.",
     "A significant amount of effort went into maintaining charity licenses, compliance, and donation processes. As a result, we had limited time and energy to focus on growth, partnerships, and expanding our impact - the very things that inspired DGM in the first place.",
