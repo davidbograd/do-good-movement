@@ -23,9 +23,6 @@ export default function Home() {
             priority
           />
         </div>
-        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-color-accent">
-          Do Good Movement
-        </p>
         <h1 className="mt-6 text-4xl font-semibold text-slate-900 md:text-6xl">
           Closing Do Good Movement, honoring the impact.
         </h1>
@@ -37,7 +34,7 @@ export default function Home() {
       </div>
 
       {hasMetrics ? (
-        <section className="mx-auto mt-24 max-w-6xl rounded-[32px] bg-[#fdf1e3] px-6 py-12 text-slate-900 shadow-[0_45px_120px_rgba(5,8,30,0.2)] sm:px-10 md:py-16">
+        <section className="mx-auto mt-24 max-w-[1400px] rounded-[32px] bg-[#fdf1e3] px-6 py-12 text-slate-900 shadow-[0_45px_120px_rgba(5,8,30,0.2)] sm:px-10 md:py-16">
           <div className="flex justify-center">
             <div className="text-center">
               <div className="text-[120px] font-bold leading-none text-slate-900 sm:text-[140px] md:text-[180px]">
@@ -62,7 +59,7 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-12 text-center text-lg font-medium text-slate-600 md:text-xl">
-            made possible by 300,000 DKK in donations
+            made possible by <span className="font-semibold text-slate-900">300,000 DKK</span> in donations
           </div>
         </section>
       ) : null}
