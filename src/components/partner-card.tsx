@@ -18,8 +18,8 @@ export const PartnerCard = ({ partner }: PartnerCardProps) => {
         />
       </div>
       <div>
-        <h3 className="text-2xl font-semibold text-slate-900">{partner.name}</h3>
-        <p className="mt-2 text-sm text-slate-600">{partner.summary}</p>
+        <h3 className="text-xl font-semibold text-slate-900">{partner.name}</h3>
+        <p className="mt-2 text-base text-slate-600">{partner.summary}</p>
       </div>
       <a
         href={partner.href}

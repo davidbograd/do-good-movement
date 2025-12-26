@@ -1,17 +1,14 @@
 import Image from "next/image";
 import { LetterBlock } from "@/components/letter-block";
 import { MetricCard } from "@/components/metric-card";
-import { PartnerCard } from "@/components/partner-card";
 import { SectionHeading } from "@/components/section-heading";
 import {
-  charityPartners,
   farewellLetter,
   impactMetrics,
 } from "@/data/content";
 
 export default function Home() {
   const hasMetrics = impactMetrics.length > 0;
-  const hasPartners = charityPartners.length > 0;
 
   return (
     <main className="relative isolate overflow-hidden px-4 pt-12 pb-24 sm:px-8 lg:px-16">
@@ -41,27 +38,21 @@ export default function Home() {
 
       {hasMetrics ? (
         <section className="mx-auto mt-24 max-w-6xl rounded-[32px] bg-[#fdf1e3] px-6 py-12 text-slate-900 shadow-[0_45px_120px_rgba(5,8,30,0.2)] sm:px-10 md:py-16">
-          <SectionHeading
-            title="Lifetime impact"
-            description="We track the impact of all charity donations that have gone through Do Good Movement."
-            align="center"
-            tone="light"
-          />
-          <div className="mt-16 flex flex-col items-center gap-12 md:flex-row md:justify-center md:gap-16">
+          <div className="flex justify-center">
             <div className="text-center">
-              <div className="text-6xl font-bold text-slate-900 md:text-7xl">
-                300,000
+              <div className="text-[120px] font-bold leading-none text-slate-900 sm:text-[140px] md:text-[180px]">
+                14,702
               </div>
-              <div className="mt-2 text-xl font-semibold text-slate-700">
-                DKK donated
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-6xl font-bold text-slate-900 md:text-7xl">
-                20,000
-              </div>
-              <div className="mt-2 text-xl font-semibold text-slate-700">
-                people helped
+              <div className="mt-6 flex items-center justify-center gap-2 text-xl font-medium text-slate-600 md:text-2xl">
+                <span>people helped through Do Good Movement</span>
+                <svg
+                  className="h-6 w-6 text-red-500 md:h-7 md:w-7"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
               </div>
             </div>
           </div>
@@ -70,21 +61,8 @@ export default function Home() {
               <MetricCard key={metric.id} metric={metric} />
             ))}
           </div>
-        </section>
-      ) : null}
-
-      {hasPartners ? (
-        <section className="mx-auto mt-24 max-w-6xl">
-          <SectionHeading
-            eyebrow="Partners"
-            title="Charities continuing the work"
-            align="center"
-            tone="light"
-          />
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            {charityPartners.map((partner) => (
-              <PartnerCard key={partner.name} partner={partner} />
-            ))}
+          <div className="mt-12 text-center text-lg font-medium text-slate-600 md:text-xl">
+            made possible by 300,000 DKK in donations
           </div>
         </section>
       ) : null}

@@ -3,6 +3,11 @@ export type ImpactMetric = {
   icon: string;
   stat: string;
   detail: string;
+  partner: {
+    name: string;
+    logo: string;
+    href: string;
+  };
 };
 
 export type CharityPartner = {
@@ -30,38 +35,68 @@ export const impactMetrics: ImpactMetric[] = [
   {
     id: "vaccinations",
     icon: "/images/icons/vac.png",
-    stat: "518 children",
+    stat: "533 children",
     detail: "enrolled in vaccination programs",
+    partner: {
+      name: "New Incentives",
+      logo: "/images/partners/new incentives.png",
+      href: "https://www.newincentives.org",
+    },
   },
   {
     id: "malaria-meds",
     icon: "/images/icons/malaria.png",
-    stat: "965 children",
+    stat: "990 children",
     detail: "given preventive malaria medicine",
+    partner: {
+      name: "Malaria Consortium",
+      logo: "/images/partners/malaria-consortium.png",
+      href: "https://www.malariaconsortium.org",
+    },
   },
   {
     id: "mosquito-nets",
     icon: "/images/icons/mosquito nets.png",
-    stat: "3,382 people",
+    stat: "3,469 people",
     detail: "given mosquito nets",
+    partner: {
+      name: "Against Malaria Foundation",
+      logo: "/images/partners/against malaria.png",
+      href: "https://www.againstmalaria.com",
+    },
   },
   {
     id: "vitamin-a",
     icon: "/images/icons/vitamin-a.png",
-    stat: "4,581 children",
+    stat: "4,674 children",
     detail: "covered with vitamin A supplements",
+    partner: {
+      name: "Helen Keller International",
+      logo: "/images/partners/helenkeller.png",
+      href: "https://www.hki.org",
+    },
   },
   {
     id: "safe-water",
     icon: "/images/icons/drinking water.png",
-    stat: "3,770 people",
+    stat: "3,858 people",
     detail: "given access to safe drinking water",
+    partner: {
+      name: "Evidence Action",
+      logo: "/images/partners/evidence-action.png",
+      href: "https://www.evidenceaction.org",
+    },
   },
   {
     id: "sanitation",
     icon: "/images/icons/water.png",
-    stat: "1,151 people",
+    stat: "1,178 people",
     detail: "given access to water or sanitation",
+    partner: {
+      name: "Water.org",
+      logo: "/images/partners/waterorg.png",
+      href: "https://water.org",
+    },
   },
 ];
 
@@ -133,15 +168,15 @@ export const farewellLetter: FarewellLetter = {
   closing: "Take care, stay safe, do good.",
   signers: [
     {
-      name: "Jacob",
+      name: "Jacob Steinitz",
       avatar: "/images/avatars/jacob.png",
     },
     {
-      name: "David",
+      name: "David Bograd",
       avatar: "/images/avatars/david.JPG",
     },
     {
-      name: "Lasse",
+      name: "Lasse Andersen",
       avatar: "/images/avatars/lasse.png",
     },
   ],
