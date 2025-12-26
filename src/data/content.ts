@@ -161,9 +161,9 @@ export const farewellLetter: FarewellLetter = {
   intro:
     "Why Do Good Movement is closing down",
   paragraphs: [
-    "After three years of dedicated work, we've made the difficult decision to close Do Good Movement. Despite our best efforts, we were unable to sustain and grow DGM to the extent we had hoped.",
-    "The majority of our time has been spent maintaining the necessary charity licenses, meeting regulatory requirements and making donations run smoothly, which left little to no room for growing DGM. Instead of being able to focus on attracting new donors, partners and expanding our impact, we found ourselves working just to keep DGM alive.",
-    "We're proud of everything we've accomplished together. A huge thank you to all the volunteers, donors and everyone that turned DGM from an idea of doing good into a movement.",
+    "After three years of building Do Good Movement, we've made the difficult decision to close. While our mission remained strong, the reality of sustaining and growing DGM proved more challenging than we had hoped.",
+    "A significant amount of effort went into maintaining charity licenses, compliance, and donation processes. As a result, we had limited time and energy to focus on growth, partnerships, and expanding our impact - the very things that inspired DGM in the first place.",
+    "We're deeply proud of what we built together. Thank you to the volunteers, donors, and supporters who helped turn a simple idea of doing good into something real.",
   ],
   closing: "Take care, stay safe, do good.",
   signers: [

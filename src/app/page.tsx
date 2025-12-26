@@ -24,22 +24,22 @@ export default function Home() {
           />
         </div>
         <h1 className="mt-6 text-4xl font-semibold text-slate-900 md:text-6xl">
-          Celebrating the impact we've made
+          Celebrating the impact<br />we've made
         </h1>
         <p className="mt-6 text-lg text-slate-600 md:text-xl">
-          After three years of collective giving, we are winding down DGM. Thank you for supporting the mission. Together, we've been able to create meaningful impact.
+          After three years of collective giving, we've decided to close Do Good Movement. Thank you for supporting the mission - together, we created meaningful impact.
         </p>
       </div>
 
       {hasMetrics ? (
-        <section className="mx-auto mt-24 max-w-[1400px] rounded-[32px] bg-[#fdf1e3] px-6 py-12 text-slate-900 shadow-[0_45px_120px_rgba(5,8,30,0.2)] sm:px-10 md:py-16">
+        <section className="mx-auto mt-12 max-w-[1400px] rounded-[32px] bg-[#fdf1e3] px-6 py-12 text-slate-900 shadow-[0_45px_120px_rgba(5,8,30,0.2)] sm:px-10 md:py-16">
           <div className="flex justify-center">
             <div className="text-center">
               <div className="text-[120px] font-bold leading-none text-slate-900 sm:text-[140px] md:text-[180px]">
                 14,702
               </div>
-              <div className="mt-6 flex items-center justify-center gap-2 text-xl font-medium text-slate-600 md:text-2xl">
-                <span>people helped through Do Good Movement</span>
+              <div className="mt-6 flex flex-col items-center justify-center gap-2 text-xl font-medium text-slate-600 sm:flex-row md:text-2xl">
+                <span>people helped through DGM</span>
                 <svg
                   className="h-6 w-6 text-red-500 md:h-7 md:w-7"
                   fill="currentColor"
@@ -56,7 +56,7 @@ export default function Home() {
               <MetricCard key={metric.id} metric={metric} />
             ))}
           </div>
-          <div className="mt-12 text-center text-lg font-medium text-slate-600 md:text-xl">
+          <div className="mt-12 text-center text-xl font-medium text-slate-600 md:text-2xl">
             made possible by over <span className="font-semibold text-slate-900">300,000 DKK</span> in charity donations
           </div>
         </section>
