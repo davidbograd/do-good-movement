@@ -159,11 +159,11 @@ export const charityPartners: CharityPartner[] = [
 
 export const farewellLetter: FarewellLetter = {
   intro:
-    "To everyone who ever donated, shared a link, or simply believed in the Do Good Movement - thank you. ❤️",
+    "Why Do Good Movement is closing down",
   paragraphs: [
-    "Over the past few years this community experimented with a hopeful idea: ordinary people pooling resources to make extraordinary, measurable change. Together we learned how to show impact transparently, how to move quickly when disasters struck, and how to keep people at the center of every decision.",
-    "As we wind things down, we feel deep pride in the projects you propelled forward. Clean water points continue to flow, vaccination drives are run by local partners, and community health workers are still equipped to act fast because of your generosity.",
-    "We are sharing this final note so future donors can see where to pick up the baton and so every supporter has space to reflect on what we built side by side.",
+    "After three years of dedicated work, we've made the difficult decision to close Do Good Movement. Despite our best efforts, we were unable to sustain and grow DGM to the extent we had hoped.",
+    "The majority of our time has been spent maintaining the necessary charity licenses, meeting regulatory requirements and making donations run smoothly, which left little to no room for growing DGM. Instead of being able to focus on attracting new donors, partners and expanding our impact, we found ourselves working just to keep DGM alive.",
+    "We're proud of everything we've accomplished together. A huge thank you to all the volunteers, donors and everyone that turned DGM from an idea of doing good into a movement.",
   ],
   closing: "Take care, stay safe, do good.",
   signers: [
