@@ -43,7 +43,7 @@ export const LetterBlock = ({ letter }: LetterBlockProps) => {
               ))}
             </div>
             <p className="font-[family-name:var(--font-caveat)] text-2xl tracking-wide">
-              Jacob Steinitz, David Bograd and Lasse Andersen
+              Jacob Steinitz, David Bograd and Lasse Rasmussen
             </p>
           </div>
         </div>

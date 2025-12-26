@@ -59,20 +59,35 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-12 text-center text-lg font-medium text-slate-600 md:text-xl">
-            made possible by <span className="font-semibold text-slate-900">300,000 DKK</span> in donations
+            made possible by over <span className="font-semibold text-slate-900">300,000 DKK</span> in charity donations
           </div>
         </section>
       ) : null}
 
       <section className="mx-auto mt-24 max-w-4xl">
-        <SectionHeading
-          eyebrow="A letter from the team"
-          title="With gratitude and care"
-          align="center"
-          tone="light"
-        />
+        <div className="text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-600">
+            A letter from the team
+          </p>
+        </div>
         <div className="mt-10">
           <LetterBlock letter={farewellLetter} />
+        </div>
+      </section>
+
+      <div className="mx-auto mt-32 max-w-3xl border-t border-slate-900/10"></div>
+
+      <section className="mx-auto mt-16 max-w-3xl">
+        <h2 className="text-center text-3xl font-semibold text-slate-900 md:text-4xl">
+          Why we're closing
+        </h2>
+        <div className="mt-6 space-y-4 text-center text-lg leading-relaxed text-slate-700">
+          <p>
+            Running Do Good Movement required significant administrative effort—coordinating donations, maintaining transparency reports, and ensuring funds reached the right partners. As volunteers with full-time commitments, we found it increasingly difficult to give DGM the attention and care it deserved.
+          </p>
+          <p>
+            Rather than let the quality of our work decline, we've made the difficult decision to wind down operations. We're proud of what we accomplished together, and we're grateful to everyone who trusted us with their generosity.
+          </p>
         </div>
       </section>
 

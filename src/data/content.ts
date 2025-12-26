@@ -176,7 +176,7 @@ export const farewellLetter: FarewellLetter = {
       avatar: "/images/avatars/david.JPG",
     },
     {
-      name: "Lasse Andersen",
+      name: "Lasse Rasmussen",
       avatar: "/images/avatars/lasse.png",
     },
   ],
