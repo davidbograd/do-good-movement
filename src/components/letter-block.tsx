@@ -17,11 +17,14 @@ export const LetterBlock = ({ letter }: LetterBlockProps) => {
       <article
         className="relative overflow-hidden rounded-[2px] border border-black/5 bg-[#fffdf8] px-7 py-10 text-left text-[#1d1930] shadow-[0_35px_120px_rgba(5,8,30,0.35)] sm:px-12 sm:py-14 sm:[transform:rotate(2deg)]"
       >
-        <div className="space-y-6 text-lg leading-8 text-[#1f1636]">
-          <h2 className="text-2xl font-bold text-[#1d1930]">{letter.intro}</h2>
-          {letter.paragraphs.map((paragraph) => (
-            <p key={paragraph.slice(0, 48)}>{paragraph}</p>
-          ))}
+        <div className="text-lg leading-8 text-[#1f1636]">
+          <p className="mb-4 text-sm text-slate-600">December 2025</p>
+          <h2 className="mb-6 text-2xl font-bold text-[#1d1930]">{letter.intro}</h2>
+          <div className="space-y-6">
+            {letter.paragraphs.map((paragraph) => (
+              <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+            ))}
+          </div>
         </div>
 
         <div className="mt-12 space-y-5 text-[#1a1333]">
