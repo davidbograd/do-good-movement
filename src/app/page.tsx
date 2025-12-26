@@ -23,8 +23,8 @@ export default function Home() {
             priority
           />
         </div>
-        <h1 className="mt-6 text-4xl font-semibold text-slate-900 md:text-6xl">
-          Celebrating the impact<br />we've made
+        <h1 className="mt-6 text-balance text-4xl font-semibold text-slate-900 md:text-6xl">
+          Celebrating the impact we've made
         </h1>
         <p className="mt-6 text-lg text-slate-600 md:text-xl">
           After three years of collective giving, we've decided to close Do Good Movement. Thank you for supporting the mission - together, we created meaningful impact.
@@ -35,7 +35,7 @@ export default function Home() {
         <section className="mx-auto mt-12 max-w-[1400px] rounded-[32px] bg-[#fdf1e3] px-6 py-12 text-slate-900 shadow-[0_45px_120px_rgba(5,8,30,0.2)] sm:px-10 md:py-16">
           <div className="flex justify-center">
             <div className="text-center">
-              <div className="text-[120px] font-bold leading-none text-slate-900 sm:text-[140px] md:text-[180px]">
+              <div className="text-[80px] font-bold leading-none text-slate-900 sm:text-[140px] md:text-[180px]">
                 14,702
               </div>
               <div className="mt-6 flex flex-col items-center justify-center gap-2 text-xl font-medium text-slate-600 sm:flex-row md:text-2xl">
